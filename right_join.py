@@ -1,4 +1,4 @@
-class right_join(beam.DoFn):
+class RightJoin(beam.DoFn):
   def process(self, ele):
     data = ele[1]
     left,right= data['<left>'], data['<right>']
