@@ -1,4 +1,4 @@
-class inner_join(beam.DoFn):
+class InnerJoin(beam.DoFn):
   def process(self,ele):
     data = ele[1]
     #replace left, right string with respectice CoGroupByKey value
